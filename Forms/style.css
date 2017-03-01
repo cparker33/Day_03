@@ -1,0 +1,66 @@
+html {
+	
+box-sizing: border-box;
+font-family: sans-serif;
+color: #FFF;
+background: rgb(92, 163, 214);
+
+}
+
+*, *:before, *:after {
+	
+	box-sizing: inherit;
+
+}
+
+ul {
+
+	list-style: none;
+}
+
+li label {
+
+	font-size: 14px;
+}
+
+.cContainer form {
+
+	display: flex;
+	flex-direction: row;
+	
+
+}
+
+.cFormContainer {
+
+		
+	display: flex;
+	flex-direction: column;
+
+}
+
+.cInp {
+
+	width: 250px;
+	background-color: rgb(92, 163, 214);
+	border: 2px solid #FFF;
+	outline-color: rgb(41, 105, 152);
+	color: #FFF;
+	margin-top: 5px;
+	
+
+}
+
+
+
+::-webkit-input-placeholder {
+
+	color: rgb(41, 105, 152);
+	font-style: italic;
+}
+
+.cFormInput li {
+
+	margin-top: 30px;
+
+}
