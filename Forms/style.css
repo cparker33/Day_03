@@ -28,6 +28,7 @@ li label {
 
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
@@ -41,24 +42,13 @@ li label {
 
 .cInp {
 
+	outline: #FFF solid 2px;
+	border: none;
 	width: 250px;
 	background-color: rgb(92, 163, 214);
-	outline-color: rgb(41, 105, 152);
 	color: #FFF;
 	margin-bottom: 25px;
 	margin-top: 10px;
-}
-
-
-.cFormInput input{
-
-	border: 2px solid #FFF;
-}
-
-
-.cFormInput textarea{
-
-	border: 2px solid #FFF;
 }
 
 
@@ -67,3 +57,13 @@ li label {
 	color: rgb(41, 105, 152);
 	font-style: italic;
 }
+
+.cInp:focus, .cInp:hover {
+	
+	outline: rgb(41, 105, 152) solid 2px;
+		
+}
+
+
+
+
